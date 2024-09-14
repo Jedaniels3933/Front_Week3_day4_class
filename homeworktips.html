@@ -1,0 +1,76 @@
+<!-- selects -->
+
+<div class="mb-4">
+    <label for="questSelect" class="form-label">Quest:</label>
+    <select class="form-select" aria-label="Quest Select" id="questSelect" required>
+        <!-- Placeholder -->
+      <option selected disabled value="">What is your quest?</option>
+      <!-- Options -->
+      <option value="grail">To seek the holy grail</option>
+      <option value="nothing">Nothing else matters</option>
+      <option value="me">Don't pick me</option>
+    </select>
+    <div class="invalid-feedback">
+      Please select a quest, it's critical
+    </div>
+  </div>
+
+
+        <!-- needs-validation -> bootstrap feedback for errors -->
+      <!-- novalidate - disables browser form validation -->
+      <form class="needs-validation" novalidate>
+
+        <div class="container my-4 bg-light p-3 rounded">
+          <div class="row">
+            <div class="col">
+              <h2 class="mb-4">Form!</h2>
+              <label for="fullName" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="fullName" required>
+              <!-- Form feedback -->
+               <div class="invalid-feedback">Full name is required!</div>
+              <div class="valid-feedback">Thank you for obeying</div>
+
+
+    <!-- Radio buttons -->
+    <div class="form-check">
+    <input class="form-check-input" type="radio" name="montyPython"
+        id="montyAmazing" checked required>
+    <label class="form-check-label" for="montyAmazing">
+        Monty Python is Amazing
+    </label>
+    </div>
+    <div class="form-check">
+    <input class="form-check-input" type="radio" name="montyPython"
+        id="montyGreat">
+    <label class="form-check-label" for="montyGreat">
+        Monty Python is Great
+    </label>
+    </div>
+
+                  <!-- Input Group -->
+                  <div class="col-lg-7">
+                    <div class="input-group">
+                      <input type="email" class="form-control" id="userEmail"
+                        placeholder="Enter email" aria-describedby="email input" required>
+                      <span class="input-group-text">username@host.com</span>
+                      <div class="invalid-feedback">
+                        We need your email to track err help you out!
+                      </div>
+                    </div>
+                    <div id="emailHelp" class="form-text text-muted m-2">
+                      We'll never share your email to anyone unless we get a lot of money
+                    </div>
+
+    <!-- use resources to look these up on bootstrap -->
+
+<!-- Read me make it better -->
+
+<!-- # WIll need a homepage, dont worry about Jumbotron  -->
+
+<!-- check out MOnday work management  -->
+
+<!-- Task details page, way to add them in / Forms dont need to save anything - but they need to link from one page to another  -->
+
+<!-- login page, registration page  -->
+
+<!--  Example at  -->
